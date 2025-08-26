@@ -1,6 +1,8 @@
 # 🧾 Keyshell Payment App – Microservices Deployment with Docker & CI/CD
 
 This project demonstrates the deployment of a microservices-based payment application using Docker containers, CI/CD pipelines via Jenkins, and a full suite of DevOps tools for quality assurance, monitoring, caching, and centralized logging.
+![login](assets/login.png?raw=true "Screen Shot")
+![dashboard](assets/dashboard.png?raw=true "Screen Shot")
 
 ## 🚀 Tech Stack
 
@@ -75,6 +77,7 @@ Each service runs in its own Docker container:
   - SonarQube analysis
   - Docker image build and push
   - Deployment via Docker Compose
+![Jenkins](assets/jenkins.png?raw=true "Screen Shot")
 
 ---
 
@@ -83,12 +86,18 @@ Each service runs in its own Docker container:
 - **Grafana Dashboards**:
   - Node Exporter (1860)
   - Docker cAdvisor (13946)
+  ![Grafana](assets/grafana.png?raw=true "Screen Shot")
+
 - **Prometheus Alerts**:
   - Alertmanager container with custom rules
+ ![prometheus](assets/prometheus.png?raw=true "Screen Shot")
+
 - **ELK Stack**:
   - Logstash input/filter/output pipeline
   - Elasticsearch indexing
   - Kibana dashboards for log analysis
+  ![kibana](assets/kibana.png?raw=true "Screen Shot")
+
 
 ---
 
